@@ -141,20 +141,6 @@ section.history li:last-child {
   border-bottom: none;
 }
 
-section.history::-webkit-scrollbar {
-  width: 8px;
-}
-
-section.history::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
-}
-
-section.history::-webkit-scrollbar-thumb {
-  background: rgb(244, 157, 26);
-  border-radius: 10px;
-}
-
 .no-history {
   color: rgba(255, 255, 255, 0.5);
   font-style: italic;

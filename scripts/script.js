@@ -37,7 +37,7 @@ digitButtons.forEach((button) => {
 // Add click event listeners to operator buttons
 operatorButtons.forEach((button) => {
   button.addEventListener("click", function () {
-    const operation = this.getAttribute("data-operator");
+    const operation = this.getAttribute("data-op");
 
     if (operation === "equals") {
       evaluateExpression();
